@@ -1,0 +1,54 @@
+{
+  "episode": 3,
+  "slug": "what-is-ai",
+  "level": 1,
+  "title": "What Is AI?",
+  "pilot": "A",
+  "status": "SCRIPTED",
+  "status_note": "Script written by Claude. NOT fact-checked against external sources (concept is general and not product-specific). Voice = Windows SAPI 'Microsoft Zira' (placeholder-quality TTS, offline). Visuals = programmatic drawings, not generated art.",
+  "prerequisites": [2],
+  "prereq_note": "Ep 2 (What is software? Rules vs learning) is not produced yet; this episode carries a short standalone bridge so it works on its own.",
+  "learning_objective": "A viewer with no background can say what AI is: software that learns patterns from examples instead of only following rules a human wrote.",
+  "analogy": "Teaching a toddler what a cat is by pointing at many cats.",
+  "analogy_breaks": "A toddler understands cats; AI only finds statistical patterns and can be confidently wrong.",
+  "actual_tech": "Machine-learning systems learn patterns from example data rather than being programmed with explicit rules for every case.",
+  "terms_introduced": ["AI", "learning from examples"],
+  "fact_check_notes": "General concept only. Needs a human skim before publishing. No product claims made.",
+  "credit": "Original storytelling by Zillenial Talk. No Anthropic material used.",
+  "takeaway": "AI is software that learns patterns from examples.",
+  "cta": "One tech concept. One simple story.",
+  "voice": {"engine": "sapi", "name": "Microsoft Zira Desktop", "rate": 1},
+  "scenes": [
+    {"id": "s1", "visual": "spam", "phrases": [
+      {"text": "Hey techies! Sneha here from Zillenial Talk.", "say": "Hey techies! Sneha here from Zillennial Talk.", "hl": ["Zillenial"]},
+      {"text": "Nobody sat down and wrote a rule for how your email knows what's spam.", "hl": ["spam"]},
+      {"text": "So how does it know?", "hl": ["know?"]}
+    ]},
+    {"id": "s2", "visual": "cats", "phrases": [
+      {"text": "Think about teaching a toddler what a cat is.", "hl": ["cat"]},
+      {"text": "You don't hand them a rulebook. You just point at cats, again and again.", "hl": ["rulebook.", "cats,"]},
+      {"text": "Soon, they spot a cat they've never seen before.", "hl": ["never"]}
+    ]},
+    {"id": "s3", "visual": "flow", "phrases": [
+      {"text": "That's the core idea behind AI.", "say": "That's the core idea behind A.I.", "hl": ["AI."]},
+      {"text": "Instead of programmers writing every rule, the system learns patterns from lots of examples.", "hl": ["learns", "patterns", "examples."]},
+      {"text": "That's how spam filters, photo search and chatbots work.", "hl": ["spam", "chatbots"]}
+    ]},
+    {"id": "s4", "visual": "breaks", "phrases": [
+      {"text": "Now, the toddler comparison has limits.", "hl": ["limits."]},
+      {"text": "A toddler understands what a cat is. AI finds patterns in data, and it can be confidently wrong.", "say": "A toddler understands what a cat is. A.I. finds patterns in data, and it can be confidently wrong.", "hl": ["patterns", "wrong."]}
+    ]},
+    {"id": "s5", "visual": "takeaway", "phrases": [
+      {"text": "So AI is software that learns patterns from examples, not just rules a human wrote.", "say": "So A.I. is software that learns patterns from examples, not just rules a human wrote.", "hl": ["AI", "learns", "patterns"]},
+      {"text": "Not so scary now, right?", "hl": ["scary"]},
+      {"text": "One tech concept. One simple story. I'm Sneha, and this is Zillenial Talk.", "say": "One tech concept. One simple story. I'm Sneha, and this is Zillennial Talk.", "hl": ["Zillenial"]}
+    ]}
+  ],
+  "publishing": {
+    "instagram_caption": "AI isn't magic. It's software that learns patterns from examples. 🐱📬 Episode 3 of AI From Zero. #ZillenialTalk",
+    "youtube_title": "What Is AI? Explained With a Toddler and a Cat #Shorts",
+    "youtube_description": "AI is software that learns patterns from examples instead of only following rules a human wrote. Part of 'AI From Zero to Forward Deployed Engineer' by Zillenial Talk.",
+    "hashtags": ["#AI", "#ArtificialIntelligence", "#LearnAI", "#ZillenialTalk", "#TechExplained"],
+    "thumbnail_text": "WHAT IS AI?"
+  }
+}

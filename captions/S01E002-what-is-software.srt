@@ -1,0 +1,144 @@
+1
+00:00:00,500 --> 00:00:02,536
+Hey techies! Sneha here
+
+2
+00:00:02,536 --> 00:00:04,318
+from Zillenial Talk.
+
+3
+00:00:04,318 --> 00:00:06,100
+Season 1, episode 2.
+
+4
+00:00:06,400 --> 00:00:07,685
+Before we talk AI,
+
+5
+00:00:07,685 --> 00:00:09,579
+we need one word: software.
+
+6
+00:00:09,879 --> 00:00:10,901
+Think of software as
+
+7
+00:00:10,901 --> 00:00:11,631
+a recipe card.
+
+8
+00:00:12,281 --> 00:00:13,353
+A human writes every
+
+9
+00:00:13,353 --> 00:00:14,528
+step, and the computer
+
+10
+00:00:14,528 --> 00:00:15,651
+follows them exactly.
+
+11
+00:00:15,951 --> 00:00:17,366
+So, usually, the same
+
+12
+00:00:17,366 --> 00:00:19,039
+ingredients give the same
+
+13
+00:00:19,039 --> 00:00:20,197
+dish, every time.
+
+14
+00:00:20,847 --> 00:00:21,816
+AI is different.
+
+15
+00:00:21,816 --> 00:00:22,671
+It's more like
+
+16
+00:00:22,671 --> 00:00:23,811
+a chef who's cooked
+
+17
+00:00:23,811 --> 00:00:24,951
+thousands of meals.
+
+18
+00:00:25,251 --> 00:00:26,388
+Nobody handed that chef
+
+19
+00:00:26,388 --> 00:00:27,477
+a card for every dish.
+
+20
+00:00:27,777 --> 00:00:28,733
+They learned patterns
+
+21
+00:00:28,733 --> 00:00:29,385
+from practice.
+
+22
+00:00:30,035 --> 00:00:31,179
+Quick reality check:
+
+23
+00:00:31,179 --> 00:00:32,105
+a chef can taste
+
+24
+00:00:32,105 --> 00:00:32,650
+the soup.
+
+25
+00:00:32,950 --> 00:00:34,004
+An AI model only
+
+26
+00:00:34,004 --> 00:00:35,740
+finds patterns in examples.
+
+27
+00:00:35,740 --> 00:00:36,793
+It doesn't taste
+
+28
+00:00:36,793 --> 00:00:37,723
+or understand.
+
+29
+00:00:38,373 --> 00:00:39,834
+So software is instructions
+
+30
+00:00:39,834 --> 00:00:40,877
+a computer follows.
+
+31
+00:00:41,177 --> 00:00:42,447
+Next up: what AI
+
+32
+00:00:42,447 --> 00:00:43,419
+actually is.
+
+33
+00:00:43,719 --> 00:00:45,063
+One tech concept.
+
+34
+00:00:45,063 --> 00:00:46,408
+One simple story.
+
+35
+00:00:46,408 --> 00:00:47,902
+I'm Sneha, and this
+
+36
+00:00:47,902 --> 00:00:49,321
+is Zillenial Talk.
+

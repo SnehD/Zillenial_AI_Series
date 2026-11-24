@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# intermediate audio (regenerable from episode.json)
+audio/voiceovers/**/*.wav
+audio/voiceovers/**/*.tsv
+.env
+*.key

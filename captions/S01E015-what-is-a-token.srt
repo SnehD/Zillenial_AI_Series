@@ -1,0 +1,196 @@
+1
+00:00:00,500 --> 00:00:02,590
+Hey techies! Sneha here
+
+2
+00:00:02,590 --> 00:00:04,419
+from Zillenial Talk.
+
+3
+00:00:04,419 --> 00:00:06,335
+Season 1, episode 15.
+
+4
+00:00:06,635 --> 00:00:07,946
+Quick question: does AI
+
+5
+00:00:07,946 --> 00:00:08,984
+read words the way
+
+6
+00:00:08,984 --> 00:00:09,421
+you do?
+
+7
+00:00:09,721 --> 00:00:12,038
+Not quite. It reads tokens.
+
+8
+00:00:12,688 --> 00:00:13,724
+Imagine your sentence
+
+9
+00:00:13,724 --> 00:00:14,572
+is a LEGO castle.
+
+10
+00:00:14,872 --> 00:00:15,865
+Before AI can use
+
+11
+00:00:15,865 --> 00:00:16,969
+it, the castle gets
+
+12
+00:00:16,969 --> 00:00:18,680
+taken apart into small bricks.
+
+13
+00:00:18,980 --> 00:00:20,467
+Those bricks are called tokens.
+
+14
+00:00:21,117 --> 00:00:22,000
+A token can be
+
+15
+00:00:22,000 --> 00:00:22,824
+a whole word,
+
+16
+00:00:22,824 --> 00:00:23,766
+part of a word,
+
+17
+00:00:23,766 --> 00:00:25,002
+or even punctuation.
+
+18
+00:00:25,302 --> 00:00:26,656
+Common words are often
+
+19
+00:00:26,656 --> 00:00:27,598
+one token. Rare
+
+20
+00:00:27,598 --> 00:00:28,892
+or long words usually
+
+21
+00:00:28,892 --> 00:00:29,540
+get split.
+
+22
+00:00:29,840 --> 00:00:30,435
+So a token
+
+23
+00:00:30,435 --> 00:00:31,246
+is not exactly
+
+24
+00:00:31,246 --> 00:00:31,679
+a word.
+
+25
+00:00:32,329 --> 00:00:34,086
+Why care? Because tokens
+
+26
+00:00:34,086 --> 00:00:35,001
+get counted.
+
+27
+00:00:35,301 --> 00:00:36,533
+AI can only handle
+
+28
+00:00:36,533 --> 00:00:37,636
+so many at once.
+
+29
+00:00:37,636 --> 00:00:38,349
+That limit
+
+30
+00:00:38,349 --> 00:00:39,841
+is the context window,
+
+31
+00:00:39,841 --> 00:00:40,879
+coming up next.
+
+32
+00:00:41,179 --> 00:00:42,459
+Many AI services also
+
+33
+00:00:42,459 --> 00:00:43,681
+charge by the token,
+
+34
+00:00:43,681 --> 00:00:44,903
+and more tokens take
+
+35
+00:00:44,903 --> 00:00:45,543
+more time.
+
+36
+00:00:46,193 --> 00:00:47,290
+Where the LEGO idea
+
+37
+00:00:47,290 --> 00:00:48,826
+breaks: tokens aren't neat,
+
+38
+00:00:48,826 --> 00:00:50,363
+equal bricks, and different
+
+39
+00:00:50,363 --> 00:00:52,063
+models split text differently.
+
+40
+00:00:52,713 --> 00:00:53,415
+So, a token
+
+41
+00:00:53,415 --> 00:00:54,408
+is a small piece
+
+42
+00:00:54,408 --> 00:00:55,343
+of text that AI
+
+43
+00:00:55,343 --> 00:00:56,394
+reads and writes.
+
+44
+00:00:56,694 --> 00:00:58,393
+Next up: the context
+
+45
+00:00:58,393 --> 00:01:00,577
+window, the AI's suitcase.
+
+46
+00:01:00,877 --> 00:01:02,222
+One tech concept.
+
+47
+00:01:02,222 --> 00:01:03,566
+One simple story.
+
+48
+00:01:03,566 --> 00:01:05,060
+I'm Sneha, and this
+
+49
+00:01:05,060 --> 00:01:06,479
+is Zillenial Talk.
+

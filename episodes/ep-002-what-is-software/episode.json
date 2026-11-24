@@ -1,0 +1,52 @@
+{
+  "episode": 2,
+  "slug": "what-is-software",
+  "level": 1,
+  "title": "What Is Software? (Rules vs Learning)",
+  "status": "SCRIPTED",
+  "status_note": "Draft script by Claude. Not fact-checked. General concept, no product claims.",
+  "prerequisites": [1],
+  "learning_objective": "Viewer understands software as step-by-step instructions written by humans, which sets up the contrast with AI.",
+  "analogy": "A recipe card (software) vs a chef who has cooked thousands of meals (learning from experience).",
+  "analogy_breaks": "A chef tastes and understands the food. A learning system only finds patterns in examples; it doesn't taste or understand.",
+  "actual_tech": "Traditional software executes explicit instructions written by programmers; deterministic for the same input.",
+  "terms_introduced": ["software"],
+  "fact_check_notes": "General concept. Some software contains randomness; episode says 'usually same input, same output'.",
+  "credit": "Original storytelling by Zillenial Talk.",
+  "takeaway": "Software is instructions a computer follows.",
+  "cta": "One tech concept. One simple story.",
+  "voice": {"engine": "sapi", "name": "Microsoft Zira Desktop", "rate": 1},
+  "cover_icon": "none",
+  "scenes": [
+    {"id": "s1", "visual": "recipe", "phrases": [
+      {"text": "Hey techies! Sneha here from Zillenial Talk.", "say": "Hey techies! Sneha here from Zillennial Talk.", "hl": ["Zillenial"]},
+      {"text": "Before we talk AI, we need one word: software.", "say": "Before we talk A.I., we need one word: software.", "hl": ["software."]},
+      {"text": "Think of software as a recipe card.", "hl": ["recipe", "card."]}
+    ]},
+    {"id": "s2", "visual": "recipe", "phrases": [
+      {"text": "A human writes every step, and the computer follows them exactly.", "hl": ["every", "exactly."]},
+      {"text": "So, usually, the same ingredients give the same dish, every time.", "hl": ["same", "every"]}
+    ]},
+    {"id": "s3", "visual": "chef", "phrases": [
+      {"text": "AI is different. It's more like a chef who's cooked thousands of meals.", "say": "A.I. is different. It's more like a chef who's cooked thousands of meals.", "hl": ["AI", "chef", "thousands"]},
+      {"text": "Nobody handed that chef a card for every dish.", "hl": ["card"]},
+      {"text": "They learned patterns from practice.", "hl": ["patterns", "practice."]}
+    ]},
+    {"id": "s4", "visual": "card", "card": {"title": "ANALOGY LIMIT", "lines": ["A chef can taste.", "A model finds patterns.", "It doesn't taste or understand."], "foot": "Rules vs learning"}, "phrases": [
+      {"text": "Quick reality check: a chef can taste the soup.", "hl": ["taste"]},
+      {"text": "An AI model only finds patterns in examples. It doesn't taste or understand.", "say": "An A.I. model only finds patterns in examples. It doesn't taste or understand.", "hl": ["patterns", "understand."]}
+    ]},
+    {"id": "s5", "visual": "endcard", "phrases": [
+      {"text": "So software is instructions a computer follows.", "hl": ["software", "instructions"]},
+      {"text": "Next up: what AI actually is.", "say": "Next up: what A.I. actually is.", "hl": ["AI"]},
+      {"text": "One tech concept. One simple story. I'm Sneha, and this is Zillenial Talk.", "say": "One tech concept. One simple story. I'm Sneha, and this is Zillennial Talk.", "hl": ["Zillenial"]}
+    ]}
+  ],
+  "publishing": {
+    "instagram_caption": "Software = a recipe card. AI = a chef who learned from practice. Episode 2 of AI From Zero. #ZillenialTalk",
+    "youtube_title": "What Is Software? The Recipe Card Explained #Shorts",
+    "youtube_description": "Software follows instructions written by humans; AI learns patterns from examples. Part of 'AI From Zero to Forward Deployed Engineer' by Zillenial Talk.",
+    "hashtags": ["#AI", "#Software", "#LearnAI", "#ZillenialTalk"],
+    "thumbnail_text": "SOFTWARE?"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "episode": 15,
+  "slug": "what-is-a-token",
+  "level": 1,
+  "title": "What Is a Token?",
+  "status": "SCRIPTED",
+  "status_note": "Draft script by Claude. Not human-reviewed. Needs verification before publishing: the 'usage is often billed per token' line is general across providers; confirm wording.",
+  "prerequisites": [14],
+  "learning_objective": "Viewer can say that AI reads and writes small pieces of text called tokens, that a token is not exactly a word, and why tokens matter (limits, cost, speed).",
+  "analogy": "A sentence is a LEGO castle that gets taken apart into bricks before AI can use it.",
+  "analogy_breaks": "Tokens are not neat, equal-sized bricks, and different models split text in different ways.",
+  "actual_tech": "LLMs process text as tokens: units produced by a tokenizer, which can be whole words, word fragments, punctuation or spaces. Limits (context window) and usage pricing are commonly expressed in tokens.",
+  "terms_introduced": ["token"],
+  "fact_check_notes": "General concept. Needs verification before publishing: exact tokenization differs by model/provider; billing-per-token statement kept as 'many services'.",
+  "credit": "Original storytelling by Zillenial Talk.",
+  "takeaway": "A token is a small piece of text that AI reads and writes.",
+  "cta": "Next: the context window.",
+  "voice": {"engine": "sapi", "name": "Microsoft Zira Desktop", "rate": 1},
+  "cover_icon": "none",
+  "scenes": [
+    {"id": "s1", "visual": "bigword", "card": {"word": "TOKEN", "emoji": "🧩", "sub": "the pieces AI reads", "sub2": "not exactly words"}, "phrases": [
+      {"text": "Hey techies! Sneha here from Zillenial Talk.", "say": "Hey techies! Sneha here from Zillennial Talk.", "hl": ["Zillenial"]},
+      {"text": "Quick question: does AI read words the way you do?", "hl": ["AI", "words"]},
+      {"text": "Not quite. It reads tokens.", "hl": ["tokens."]}
+    ]},
+    {"id": "s2", "visual": "steps", "card": {"title": "HOW TEXT GETS CHOPPED", "steps": ["Your sentence", "Split into pieces", "Pieces = tokens"]}, "phrases": [
+      {"text": "Imagine your sentence is a LEGO castle.", "hl": ["LEGO", "castle."]},
+      {"text": "Before AI can use it, the castle gets taken apart into small bricks.", "hl": ["bricks."]},
+      {"text": "Those bricks are called tokens.", "hl": ["tokens."]}
+    ]},
+    {"id": "s3", "visual": "compare", "card": {"left": {"title": "COMMON WORD", "emoji": "🐱", "lines": ["often 1 token", "like \"cat\""]}, "right": {"title": "RARE WORD", "emoji": "🧬", "lines": ["often several tokens", "like \"unbelievably\""]}, "warn": "a token is not exactly a word"}, "phrases": [
+      {"text": "A token can be a whole word, part of a word, or even punctuation.", "hl": ["token", "punctuation."]},
+      {"text": "Common words are often one token. Rare or long words usually get split.", "hl": ["one", "split."]},
+      {"text": "So a token is not exactly a word.", "hl": ["not", "word."]}
+    ]},
+    {"id": "s4", "visual": "checklist", "card": {"title": "WHY TOKENS MATTER", "items": [{"text": "Limits what AI can read", "ok": true}, {"text": "Often how usage is billed", "ok": true}, {"text": "More tokens, more time", "ok": true}]}, "phrases": [
+      {"text": "Why care? Because tokens get counted.", "hl": ["counted."]},
+      {"text": "AI can only handle so many at once. That limit is the context window, coming up next.", "say": "A.I. can only handle so many at once. That limit is the context window, coming up next.", "hl": ["limit", "context", "window,"]},
+      {"text": "Many AI services also charge by the token, and more tokens take more time.", "say": "Many A.I. services also charge by the token, and more tokens take more time.", "hl": ["charge", "time."]}
+    ]},
+    {"id": "s5", "visual": "card", "card": {"title": "ANALOGY LIMIT", "lines": ["LEGO bricks are equal.", "Tokens aren't.", "Splits differ by model."], "foot": "Same text, different tokens"}, "phrases": [
+      {"text": "Where the LEGO idea breaks: tokens aren't neat, equal bricks, and different models split text differently.", "hl": ["breaks:", "differently."]}
+    ]},
+    {"id": "s6", "visual": "endcard", "phrases": [
+      {"text": "So, a token is a small piece of text that AI reads and writes.", "say": "So, a token is a small piece of text that A.I. reads and writes.", "hl": ["token", "small", "piece"]},
+      {"text": "Next up: the context window, the AI's suitcase.", "say": "Next up: the context window, the A.I.'s suitcase.", "hl": ["context", "window,"]},
+      {"text": "One tech concept. One simple story. I'm Sneha, and this is Zillenial Talk.", "say": "One tech concept. One simple story. I'm Sneha, and this is Zillennial Talk.", "hl": ["Zillenial"]}
+    ]}
+  ],
+  "publishing": {
+    "instagram_caption": "AI doesn't read words like you do. It reads TOKENS. 🧩\nThink of your sentence as a LEGO castle taken apart into bricks. A token can be a word, part of a word, or punctuation.\nWhy it matters: limits, cost and speed all depend on tokens.\nSave this for the next episode: the context window! 📌\nWhat word do you think gets split into the most tokens? 👇\n#WhatIsAToken #LearnAI #AIforBeginners #LLM #TechExplained #ZillenialTalk #AIFromZero",
+    "youtube_title": "What Is a Token in AI? The LEGO Trick (AI From Zero #15) #Shorts",
+    "youtube_description": "AI reads tokens, not exactly words. A token can be a word, part of a word, or punctuation, and limits, cost and speed are tied to tokens. Next: the context window.\n#Shorts #LearnAI #LLM",
+    "hashtags": ["#LearnAI", "#LLM", "#AIforBeginners", "#ZillenialTalk"],
+    "thumbnail_text": "TOKENS?"
+  }
+}

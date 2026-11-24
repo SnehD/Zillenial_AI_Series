@@ -1,0 +1,47 @@
+{
+  "episode": 1,
+  "slug": "the-roadmap",
+  "level": 0,
+  "title": "The Roadmap (and Why AI Words Feel So Scary)",
+  "status": "SCRIPTED",
+  "status_note": "Draft script by Claude. Not fact-checked. Roadmap order mirrors curriculum/curriculum.json and may change after approval.",
+  "prerequisites": [0],
+  "learning_objective": "Viewer knows the path from AI basics to FDE and the series promise: every word explained before it is used.",
+  "analogy": "A road trip with numbered stops.",
+  "analogy_breaks": "N/A (orientation episode).",
+  "actual_tech": "N/A",
+  "terms_introduced": ["Forward Deployed Engineer (named only, explained later)"],
+  "fact_check_notes": "Do not describe FDE responsibilities here; defined later in Ep 135 after verification.",
+  "credit": "Original storytelling by Zillenial Talk.",
+  "takeaway": "Every new word gets explained before we use it.",
+  "cta": "Follow along from the start.",
+  "voice": {"engine": "sapi", "name": "Microsoft Zira Desktop", "rate": 1},
+  "cover_icon": "none",
+  "scenes": [
+    {"id": "s1", "visual": "jargon", "phrases": [
+      {"text": "Hey techies! Sneha here. AI words sound scary for a reason.", "say": "Hey techies! Sneha here. A.I. words sound scary for a reason.", "hl": ["scary"]},
+      {"text": "They all show up at once: tokens, agents, A-P-I.", "say": "They all show up at once: tokens, agents, A P I.", "hl": ["tokens,", "agents,"]},
+      {"text": "So we're going to learn them in order.", "hl": ["order."]}
+    ]},
+    {"id": "s2", "visual": "roadmap", "phrases": [
+      {"text": "First, what AI actually is.", "say": "First, what A.I. actually is.", "hl": ["AI"]},
+      {"text": "Then how to talk to it, and how real AI apps get built.", "say": "Then how to talk to it, and how real A.I. apps get built.", "hl": ["talk", "built."]},
+      {"text": "After that, agents and coding tools.", "hl": ["agents"]},
+      {"text": "And finally, how engineers take AI into real businesses.", "say": "And finally, how engineers take A.I. into real businesses.", "hl": ["engineers", "businesses."]}
+    ]},
+    {"id": "s3", "visual": "card", "card": {"title": "THE PROMISE", "lines": ["One concept.", "One story.", "No surprise jargon."], "foot": "Every word explained first"}, "phrases": [
+      {"text": "Every new word gets explained before we use it.", "hl": ["explained", "before"]},
+      {"text": "That's the deal.", "hl": ["deal."]}
+    ]},
+    {"id": "s4", "visual": "endcard", "phrases": [
+      {"text": "I'm Sneha, and this is Zillenial Talk. See you in the next one!", "say": "I'm Sneha, and this is Zillennial Talk. See you in the next one!", "hl": ["Zillenial"]}
+    ]}
+  ],
+  "publishing": {
+    "instagram_caption": "The full roadmap: from zero AI knowledge to how engineers deploy AI in real businesses. One concept, one story at a time. #ZillenialTalk",
+    "youtube_title": "Learn AI From Zero: The Roadmap #Shorts",
+    "youtube_description": "The roadmap for 'AI From Zero to Forward Deployed Engineer' by Zillenial Talk.",
+    "hashtags": ["#AI", "#LearnAI", "#ZillenialTalk"],
+    "thumbnail_text": "THE ROADMAP"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "episode": 0,
+  "slug": "why-understand-ai",
+  "level": 0,
+  "title": "Why Normal People Should Understand AI",
+  "status": "SCRIPTED",
+  "status_note": "Draft script by Claude. Not fact-checked (no product claims). Voice = Windows SAPI Zira. Visuals = programmatic.",
+  "prerequisites": [],
+  "learning_objective": "Viewer understands why AI literacy matters even without coding, and what the series will do.",
+  "analogy": "The group chat where everyone throws around jargon and you nod along.",
+  "analogy_breaks": "N/A (motivation episode, no technical analogy).",
+  "actual_tech": "N/A",
+  "terms_introduced": [],
+  "fact_check_notes": "Claims are general and non-numeric. 'AI already drafts emails/summarizes documents' is common knowledge; confirm wording before publishing.",
+  "credit": "Original storytelling by Zillenial Talk.",
+  "takeaway": "You don't need to code to understand AI; you need the ideas in the right order.",
+  "cta": "Follow along and the words will start to make sense.",
+  "voice": {"engine": "sapi", "name": "Microsoft Zira Desktop", "rate": 1},
+  "cover_icon": "none",
+  "scenes": [
+    {"id": "s1", "visual": "jargon", "phrases": [
+      {"text": "Hey techies! Sneha here from Zillenial Talk.", "say": "Hey techies! Sneha here from Zillennial Talk.", "hl": ["Zillenial"]},
+      {"text": "Ever been in a meeting where everyone says L-L-M, agents, RAG... and you just nod?", "say": "Ever been in a meeting where everyone says L L M, agents, rag... and you just nod?", "hl": ["L-L-M,", "agents,", "RAG..."]},
+      {"text": "Yeah. Same group chat, same panic.", "hl": ["panic."]}
+    ]},
+    {"id": "s2", "visual": "card", "card": {"title": "AI AT WORK", "lines": ["It drafts.", "It summarizes.", "It searches."], "foot": "No coding required to understand it"}, "phrases": [
+      {"text": "AI is already drafting emails, summarizing documents, and helping teams work.", "say": "A.I. is already drafting emails, summarizing documents, and helping teams work.", "hl": ["AI", "drafting", "summarizing"]},
+      {"text": "You don't need to write code to understand it.", "hl": ["don't", "code"]},
+      {"text": "You just need the ideas in the right order.", "hl": ["right", "order."]}
+    ]},
+    {"id": "s3", "visual": "endcard", "phrases": [
+      {"text": "That's this series. AI from zero, one story at a time.", "say": "That's this series. A.I. from zero, one story at a time.", "hl": ["zero,", "story"]},
+      {"text": "I'm Sneha, and this is Zillenial Talk.", "say": "I'm Sneha, and this is Zillennial Talk.", "hl": ["Zillenial"]}
+    ]}
+  ],
+  "publishing": {
+    "instagram_caption": "If AI jargon makes you nod and hope nobody asks, this series is for you. AI from zero, one story at a time. #ZillenialTalk",
+    "youtube_title": "Why You Should Understand AI (Even If You Don't Code) #Shorts",
+    "youtube_description": "Start of 'AI From Zero to Forward Deployed Engineer' by Zillenial Talk. One tech concept, one simple story.",
+    "hashtags": ["#AI", "#LearnAI", "#ZillenialTalk", "#TechExplained"],
+    "thumbnail_text": "WHY AI?"
+  }
+}
